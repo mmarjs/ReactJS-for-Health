@@ -1,0 +1,67 @@
+@font-face {
+    font-family: vivenFont;
+    src: url(/fonts/steelfish-rg-2.otf);
+    /*src: url(/fonts/WorkSans-Regular.woff);*/
+}
+
+.appPanel {
+    display: block;
+    background: linear-gradient(to right, #84B5CA, #2D6780);
+    height: 160px;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.appPanel .logo {
+    /*float: left;*/
+    width: 280px;
+    height: 100px;
+    /*margin-right: 25px;*/
+}
+
+/*.health {
+    float: left;
+    color: white;
+    margin-top: 7px;
+    font-size: 50px;
+    font-family: 'Droid Serif', serif;
+}*/
+
+/*.avatar {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-top: -50px;
+}*/
+
+.appBar {
+    display: none;
+}
+
+.appBar .mainPart {
+    background: linear-gradient(to right, #84B5CA, #2D6780);
+    width: 100%;
+}
+
+.appBar .logo {
+    height: 100%;
+}
+
+.welcome {
+    /*color: #546E7A;*/
+    font-family: vivenFont, sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .appPanel {
+        display: none;
+    }
+    .appBar {
+        display: block;
+    }
+}

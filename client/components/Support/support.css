@@ -1,0 +1,12 @@
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
