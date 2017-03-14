@@ -2,9 +2,9 @@ import * as firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDZ_fkS8XTkcH4mFAB5bGwnyGRxY_qPxMo",
+    apiKey: "",
     authDomain: "viven-health-7f33c.firebaseapp.com",
-    databaseURL: "https://viven-health-7f33c.firebaseio.com",
+    databaseURL: "",
     storageBucket: "viven-health-7f33c.appspot.com",
     messagingSenderId: "129257487284"
 };

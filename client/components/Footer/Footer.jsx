@@ -6,7 +6,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <Grid fluid={true} style={{paddingLeft:12, paddingRight: 30}}>
+                <Grid fluid={true} style={{paddingLeft: 0, paddingRight: 0}}>
                     <Row>
                         <Col xs={12}>
                             <div className={css.footer}>

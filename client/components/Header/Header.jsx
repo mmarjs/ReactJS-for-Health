@@ -91,9 +91,9 @@ export default class Header extends Component {
                                     title={
                                         <img className={css.logo} src='/images/logo_new.png' />
                                     }
-                                    // iconElementRight={
-                                    //     this.state.logged ? <Logged avatar={this.props.user.picture} iconButton={<IconButton><MoreVertIcon color={'white'}/></IconButton>} /> : <Login />
-                                    // }
+                                    iconElementRight={
+                                        this.state.logged ? <Logged avatar={this.props.user.picture} iconButton={<IconButton><MoreVertIcon color={'white'}/></IconButton>} /> : <Login />
+                                    }
                                     onLeftIconButtonTouchTap={this.props.onMenuButtonClick}
                                 />
                             </div>
