@@ -17,7 +17,7 @@ const muiTheme = getMuiTheme({
         backgroundColor: 'transparent',
     },
     inkBar: {
-        backgroundColor: '#84B5CA',
+        backgroundColor: '#FFFF',
     }
 });
 
