@@ -36,13 +36,13 @@ export default class Cases extends Component {
     this.updateCaseList = this.updateCaseList.bind(this);
   }
 
-  componentDidMount() {
-    this.setState({category: this.props.category, programObject: this.props.program});
-  }
+  // componentDidMount() {
+  //   this.setState({category: this.props.category, programObject: this.props.program});
+  // }
   
-  componentWillReceiveProps(nextProps) {
-    this.setState({category: nextProps.category, programObject: nextProps.program});
-  }
+  // componentWillReceiveProps(nextProps) {
+  //   this.setState({category: nextProps.category, programObject: nextProps.program});
+  // }
 
   updateCaseList() {
     tilesData = [];

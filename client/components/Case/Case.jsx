@@ -39,8 +39,8 @@ export default class Case extends Component {
             alertOpen: false,
         }
 
-        this.caseCompleteCheck = this.caseCompleteCheck.bind(this);
-        this.handleRequestClose = this.handleRequestClose.bind(this);
+        // this.caseCompleteCheck = this.caseCompleteCheck.bind(this);
+        // this.handleRequestClose = this.handleRequestClose.bind(this);
     }
 
     componentDidMount() {
@@ -57,7 +57,7 @@ export default class Case extends Component {
     }
 
     handleRequestClose() {
-        this.setState({alertOpen: false});
+        // this.setState({alertOpen: false});
     }
 
     render() {
@@ -82,7 +82,7 @@ export default class Case extends Component {
                             open={this.state.alertOpen}
                             message="Congratulation!"
                             autoHideDuration={4000}
-                            onRequestClose={this.handleRequestClose}
+                            // onRequestClose={this.handleRequestClose}
                             bodyStyle={styles.alert.bodyStyle}
                             contentStyle={styles.alert.contentStyle}
                         />
