@@ -50,7 +50,7 @@ export default class App extends React.Component {
                 </Router>
                 
                 <Router history={hashHistory}>
-                    <Route path='/case' component={null} />
+                    <Route path='/case/first case' component={null} />
                     <Route path='*' component={Footer} />
                 </Router>
                 {/*<Login />*/}
